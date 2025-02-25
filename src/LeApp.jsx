@@ -37,7 +37,7 @@ export default function LeApp() {
             </a>
           </div>
           <div className="divResume">
-            <a className="linkResume">Resume</a>
+            <a className="linkResume" href='/resume.pdf' target='_blank' rel='noopener noreferrer'>Resume</a>
           </div>
         </div>
       </nav>
@@ -74,7 +74,7 @@ export default function LeApp() {
               </a>
             </div>
             <div className="divResumeBurger">
-              <a className="linkResumeBurger">Resume</a>
+              <a className="linkResumeBurger" href='/resume.pdf' target='_blank' rel='noopener noreferrer'>Resume</a>
             </div>
           </div>
         </div>
