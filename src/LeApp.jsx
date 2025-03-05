@@ -508,16 +508,10 @@ export default function LeApp() {
                 </h3>
                 <div className="project-description">
                   <p>
-                    Having struggled with understanding how the Spotify OAuth flow
-                    works, I made the course I wish I could have had.
-                  </p>
-                  <p>
-                    Unlike tutorials that only cover a few concepts and leave you with
-                    half-baked GitHub repositories, this course covers everything from
-                    explaining the principles of REST APIs to implementing Spotify&apos;s
-                    OAuth flow and fetching API data in a React app. By the end of the
-                    course, you’ll have an app deployed to the internet you can add to
-                    your portfolio.
+                  A Next.js treasure trove showcasing self-taught front-end wizardry.
+                  Dive into the One Piece API—where you recruit legendary characters for custom, 
+                  daring missions. It's an adventure so interactive, even Luffy might swap his 
+                  straw hat for a coding cap!
                   </p>
                 </div>
                 <ul className="project-tech-list">
