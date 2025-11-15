@@ -87,17 +87,18 @@ export default function LeApp() {
         </div>
         <div className="divDescription">
           <p className="descP">
-            I am a web developer, interested in user behaviour and having a keen
-            eye for aesthetics, I like to craft intuitive and visually appealing
-            interfaces. Currently, I’m a Frontend/UX-UI Developer at{" "}
-            <a className="linkJob" href="https://www.tweetz.com/">
-              Tweetz
+            I am a web developer with a strong focus on e-commerce and user experience. 
+            With hands-on experience in Shopify development and frontend technologies, 
+            I enjoy building intuitive digital solutions that drive results. Currently, 
+            I'm an E-commerce Manager Intern at{" "}
+            <a className="linkJob" href="https://beerproject.be/">
+              Brussels Beer Project
             </a>
-            .
+            , where I optimize online store operations and enhance customer experience.
           </p>
         </div>
         <div className="divResumePres">
-          <a className="linkResumePres">Check out my resume!</a>
+          <a className="linkResumePres" href='/resume.pdf' target='_blank' rel='noopener noreferrer'>Check out my resume!</a>
         </div>
       </div>
       <section className="about" id='about'>
@@ -109,49 +110,53 @@ export default function LeApp() {
         <div className="aboutContent">
           <div className="aboutText">
             <p className="aboutPara">
-              Hello! My name is Emrah, and I’m passionate about crafting digital
-              experiences that live on the internet. My journey into web
-              development began just a year ago, and since then, I’ve been
-              immersed in the world of coding, design, and user behavior. What
-              started as a curiosity has quickly turned into a deep love for
-              creating intuitive and visually appealing interfaces.
+              Hello! My name is Emrah, and I'm passionate about creating impactful 
+              digital experiences, particularly in the e-commerce space. My journey 
+              into web development began over a year ago, and since then, I've specialized 
+              in building and optimizing online stores, with a keen eye for UX/UI design 
+              and user behavior.
             </p>
             <p className="aboutPara">
-              I’ve had the opportunity to grow my skills through hands-on
-              experience. My first internship as a web developer at{" "}
-              <a className="linkJob" href="https://demainselection.com/">
-                a start-up
-              </a>{" "}
-              introduced me to the world of Shopify, where I learned to build and
-              customize e-commerce solutions. Currently, I’m interning as a
-              Front-end and UX/UI Developer at{" "}
+              I've had the opportunity to gain valuable experience across different roles. 
+              Currently, I'm working as an E-commerce Manager Intern at{" "}
+              <a className="linkJob" href="https://beerproject.be/">
+                Brussels Beer Project
+              </a>
+              , where I manage daily Shopify operations, lead strategic projects like the 
+              Advent Calendar campaign, and implement continuous optimizations to improve 
+              conversion rates. Previously, I worked as a Frontend/UX-UI Developer at{" "}
               <a className="linkJob" href="https://www.tweetz.com/">
                 Tweetz
               </a>
-              , where I focus on designing and developing user-centric interfaces
-              that are both functional and beautiful.
+              , designing user-centric interfaces with React and TypeScript. My first 
+              internship at{" "}
+              <a className="linkJob" href="https://demainselection.com/">
+                Demain Sélection
+              </a>
+              {" "}introduced me to Shopify development, where I redesigned e-commerce 
+              pages and built custom solutions that increased conversion rates.
             </p>
             <p className="aboutPara">
-              My goal is to be part of projects that have a meaningful impact on
-              the world, whether that’s through solving real-world problems or
-              enhancing the way people experience technology.
+              My goal is to contribute to projects that make a real difference, whether 
+              that's helping businesses grow through optimized e-commerce experiences or 
+              creating digital solutions that genuinely improve how people interact with 
+              technology.
             </p>
             <p className="aboutPara">
-              When I’m not coding, I might be watching the new Almodovar picture in
-              a local cinema theater, or studying the patterns of play of
-              Barcelona and Chelsea.
+              When I'm not coding, you might find me watching the latest Palme d'Or winner 
+              at a local cinema, or analyzing the tactical patterns of Barcelona and Chelsea.
             </p>
             <div>
               <p className="aboutPara">
                 Here are a few technologies I’ve been working with recently:
               </p>
               <ul className="skills-list">
+                <li>Shopify & Liquid</li>
                 <li>JavaScript (ES6+)</li>
-                <li>TypeScript</li>
-                <li>React</li>
                 <li>Python</li>
                 <li>Figma</li>
-                <li>Shopify</li>
+                <li>Canva</li>
+                <li>Brevo</li>
               </ul>
             </div>
           </div>
@@ -170,31 +175,58 @@ export default function LeApp() {
         <div className="inner">
           <div role="tablist" aria-label="Job tabs" className="jobs__StyledTabList-sc-59sdss-1 sAHTI">
             <div id="tab-0" role="tab" tabIndex="0" aria-selected="true" aria-controls="panel-0" className={showWork == 1 ? "dHdZWh" : "gHbkvF"} onClick={() => setShowWork(1)}>
-              <span>Tweetz</span>
+              <span>Brussels Beer Project</span>
             </div>
             <div id="tab-1" role="tab" tabIndex="-1" aria-selected="false" aria-controls="panel-1" className={showWork == 2 ? "dHdZWh" : "gHbkvF"} onClick={() => setShowWork(2)}>
-              <span>Demain Sélection</span>
+              <span>Tweetz</span>
             </div>
             <div id="tab-2" role="tab" tabIndex="-1" aria-selected="false" aria-controls="panel-2" className={showWork == 3 ? "dHdZWh" : "gHbkvF"} onClick={() => setShowWork(3)}>
-              <span>MolenGeek</span>
+              <span>Demain Sélection</span>
             </div>
             <div id="tab-3" role="tab" tabIndex="-1" aria-selected="false" aria-controls="panel-3" className={showWork == 4 ? "dHdZWh" : "gHbkvF"} onClick={() => setShowWork(4)}>
+              <span>MolenGeek</span>
+            </div>
+            <div id="tab-4" role="tab" tabIndex="-1" aria-selected="false" aria-controls="panel-4" className={showWork == 5 ? "dHdZWh" : "gHbkvF"} onClick={() => setShowWork(5)}>
               <span>CPAS de Jette</span>
             </div>
-            <div className={showWork == 1 ? "fLsUSJ" : showWork == 2 ? "fLsUxN2" : showWork == 3 ? "fLsUxN3" : showWork == 4 ? "fLsUxN4" : showWork == 5 ? "fLsUxN5" : "fLsUSJ"}></div>
+            <div className={showWork == 1 ? "fLsUSJ" : showWork == 2 ? "fLsUxN2" : showWork == 3 ? "fLsUxN3" : showWork == 4 ? "fLsUxN4" : showWork == 5 ? "fLsUxN5" : showWork == 6 ? "fLsUxN6" : "fLsUSJ"}></div>
           </div>
           <div className="jobs__StyledTabPanels-sc-59sdss-4 jbGgbG">
             <div id="panel-0" role="tabpanel" tabIndex="0" aria-labelledby="tab-0" aria-hidden={showWork == 1 ? "false" : "true"} className={showWork == 1 ? "expShow" : "exp"}>
               <h3 className='expTitle'>
-                <span>Frontend/UX-UI Developer</span>
+                <span>E-commerce Manager (Internship)</span>
                 <span className="company">
                   &nbsp;@&nbsp;
-                  <a href="https://www.tweetz.com/" className="inline-link" rel="noopener noreferrer">
+                  <a href="https://beerproject.be/" className="inline-link" rel="noopener noreferrer">
+                    Brussels Beer Project
+                  </a>
+                </span>
+              </h3>
+              <p className="expRange">August 2025 - February 2026</p>
+              <div>
+                <ul className='expUl'>
+                  <li>
+                    Managed and optimized daily Shopify store operations: product updates, inventory tracking, 
+                    UX/UI improvements and performance monitoring
+                  </li>
+                  <li>
+                    Led the Advent Calendar project (flagship e-commerce event): 
+                    logistical coordination, marketing campaigns and checkout flow optimization
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div id="panel-1" role="tabpanel" tabIndex="-1" aria-labelledby="tab-1" aria-hidden={showWork == 2 ? "false" : "true"} className={showWork == 2 ? "expShow" : "exp"}>
+              <h3 className='expTitle'>
+                <span>Frontend/UX-UI Developer (Internship)</span>
+                <span className="company">
+                  &nbsp;@&nbsp;
+                  <a href="https://www.tweetz.com/tweetz-it/" className="inline-link" rel="noopener noreferrer">
                     Tweetz
                   </a>
                 </span>
               </h3>
-              <p className="expRange">December 2024 - Present</p>
+              <p className="expRange">December 2024 - April 2025</p>
               <div>
                 <ul className='expUl'>
                   <li>
@@ -215,9 +247,9 @@ export default function LeApp() {
                 </ul>
               </div>
             </div>
-            <div id="panel-1" role="tabpanel" tabIndex="-1" aria-labelledby="tab-1" aria-hidden={showWork == 2 ? "false" : "true"} className={showWork == 2 ? "expShow" : "exp"}>
+            <div id="panel-2" role="tabpanel" tabIndex="-1" aria-labelledby="tab-2" aria-hidden={showWork == 3 ? "false" : "true"} className={showWork == 3 ? "expShow" : "exp"}>
               <h3 className='expTitle'>
-                <span>Web Developer</span>
+                <span>Front end developer Shopify (Internship)</span>
                 <span className="company">
                   &nbsp;@&nbsp;
                   <a
@@ -252,12 +284,12 @@ export default function LeApp() {
               </div>
             </div>
             <div
-              id="panel-2"
+              id="panel-3"
               role="tabpanel"
               tabIndex="-1"
-              aria-labelledby="tab-2"
-              aria-hidden={showWork == 3 ? "false" : "true"}
-              className={showWork == 3 ? "expShow" : "exp"}
+              aria-labelledby="tab-3"
+              aria-hidden={showWork == 4 ? "false" : "true"}
+              className={showWork == 4 ? "expShow" : "exp"}
             >
               <h3 className='expTitle'>
                 <span>Full-stack Web Developer Traineeship</span>
@@ -290,12 +322,12 @@ export default function LeApp() {
               </div>
             </div>
             <div
-              id="panel-3"
+              id="panel-4"
               role="tabpanel"
               tabIndex="-1"
-              aria-labelledby="tab-3"
-              aria-hidden={showWork == 4 ? "false" : "true"}
-              className={showWork == 4 ? "expShow" : "exp"}
+              aria-labelledby="tab-4"
+              aria-hidden={showWork == 5 ? "false" : "true"}
+              className={showWork == 5 ? "expShow" : "exp"}
             >
               <h3 className='expTitle'>
                 <span>Polyvalent assistant administrator</span>

@@ -441,7 +441,7 @@ p {
 }
 
 .descP {
-  max-width: 540px;
+  max-width: 800px;
   font-family: Inter;
   font-size: 17px;
   color: #95a5c4;
@@ -893,6 +893,18 @@ ul.skills-list li::before {
   border-radius: 4px;
   background: var(--red);
   transform: translateY(calc(1* 174px));
+  transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0.1s;
+}
+.fLsUxN6 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 2px;
+  height: 42px;
+  border-radius: 4px;
+  background: var(--red);
+  transform: translateY(calc(1* 220px));
   transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0.1s;
 }
 
