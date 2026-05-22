@@ -202,7 +202,7 @@ export default function LeApp() {
                   </a>
                 </span>
               </h3>
-              <p className="expRange">August 2025 - February 2026</p>
+              <p className="expRange">August 2025 - March 2026</p>
               <div>
                 <ul className='expUl'>
                   <li>
